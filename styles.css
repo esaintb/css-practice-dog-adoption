@@ -34,3 +34,18 @@ h2 {
 .adoptionFormLink {
     font-size: 12px;
 }
+
+#dogInfoContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0px 30px 0px 30px;
+}
+
+.dogCard {
+    width: 32%;
+}
+
+img {
+    width: 100%;
+}
