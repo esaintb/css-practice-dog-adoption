@@ -19,5 +19,18 @@ html {
     padding: 20px;
     border-bottom: 3px solid #89DEEF;
     color: white;
+}
 
+.adoptionIntro {
+    margin-left: 20px;
+    padding-bottom: 5px;
+}
+
+h2 {
+    margin: 15px 0 12px 0;
+    font-size: 16px;
+}
+
+.adoptionFormLink {
+    font-size: 12px;
 }
