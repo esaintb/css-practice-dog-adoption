@@ -16,14 +16,14 @@ html {
 .header {
     background-color: #004175;
     font-size: 10px;
-    padding: 20px;
+    padding: 30px;
     border-bottom: 3px solid #89DEEF;
     color: white;
 }
 
 .adoptionIntro {
-    margin-left: 20px;
-    padding-bottom: 5px;
+    margin-left: 30px;
+    padding-bottom: 10px;
 }
 
 h2 {
@@ -44,8 +44,14 @@ h2 {
 
 .dogCard {
     width: 32%;
+    font-family: Oswald;
 }
 
 img {
     width: 100%;
+}
+
+.traits {
+    display: flex;
+    flex-wrap: wrap;
 }
