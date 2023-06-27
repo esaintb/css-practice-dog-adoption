@@ -45,6 +45,7 @@ h2 {
 .dogCard {
     width: 32%;
     font-family: Oswald;
+    padding-bottom: 20px;
 }
 
 img {
@@ -54,5 +55,14 @@ img {
 .traits {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+}
+
+.traits>p {
+    background-color: #89DEEF;
+    margin: 0px 6px 8px 0px;
+    border-radius: 30px;
+    padding: 3px;
+    font-family: Open Sans;
+    font-size: 50%;
+    font-weight: 100;
 }
