@@ -73,25 +73,33 @@ h2 {
 }
 
 .footerCard {
-    /* border: 2px solid yellow; */
-    width: 33.9%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden;
-
-}
-
-.footerWords {
-    font-family: Oswald;
     font-size: 150%;
-    position: absolute;
+    font-family: Oswald;
     color: white;
-
 }
 
-.footerCard img {
-    max-width: 100%;
-    height: auto;
+#footerDonate {
+    background: linear-gradient(rgba(135, 138, 214, 0.736),
+            rgba(135, 138, 214, 0.736)),
+        url(starter_files/images/donate.jpg);
+    background-size: cover;
+}
 
+#footerVolunteer {
+    background: linear-gradient(rgba(135, 138, 214, 0.736),
+            rgba(135, 138, 214, 0.736)),
+        url(starter_files/images/volunteer.jpg);
+    background-size: cover;
+}
+
+#footerLocation {
+    background: linear-gradient(rgba(135, 138, 214, 0.736),
+            rgba(135, 138, 214, 0.736)),
+        url(starter_files/images/location.png);
+    background-size: cover;
 }
