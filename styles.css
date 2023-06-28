@@ -48,7 +48,7 @@ h2 {
     padding-bottom: 20px;
 }
 
-img {
+.dogCard img {
     width: 100%;
 }
 
@@ -69,19 +69,29 @@ img {
 #footer {
     display: flex;
     flex: 1 1 auto;
-
+    height: 175px;
 }
 
 .footerCard {
-    border: 2px solid yellow;
-    height: 150px;
-    width: 33%;
+    /* border: 2px solid yellow; */
+    width: 33.9%;
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
+
 }
 
 .footerWords {
     font-family: Oswald;
     font-size: 150%;
+    position: absolute;
+    color: white;
+
+}
+
+.footerCard img {
+    max-width: 100%;
+    height: auto;
+
 }
