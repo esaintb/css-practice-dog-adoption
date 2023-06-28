@@ -62,7 +62,10 @@ img {
     margin: 0px 6px 8px 0px;
     border-radius: 30px;
     padding: 3px;
-    font-family: Open Sans;
     font-size: 50%;
-    font-weight: 100;
+    font-family: Open Sans;
+}
+
+#footer {
+    display: flex;
 }
